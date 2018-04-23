@@ -1,3 +1,5 @@
+<?php
+
 function numLivesPerSenator(string $name): int {
 	if($name === "Arlo") {
 		return 9;
@@ -5,3 +7,4 @@ function numLivesPerSenator(string $name): int {
 		return 1;
 	}
 }
+
